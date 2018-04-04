@@ -1,0 +1,248 @@
+/* Global Styles
+--------------------------------------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: darkcyan;
+    background: antiquewhite;
+    margin: 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 900px;
+    float: center;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.summary {
+    text-align: center;
+}
+
+/* #contact {
+    text-align: center;
+    color: floralwhite;
+}
+*/
+
+.content-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-right: 10px;
+    /*border: 1px solid red;*/
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-bottom: 20px;
+    /*border: 1px solid red;*/
+}
+
+.bodyclass {
+    text-align: left;
+    text-align: justify;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkslategrey;
+
+}
+
+h2 {
+    margin: 0;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h3 {
+    margin: 0;
+}
+
+.upper_case {
+    text-transform: uppercase;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+.section_title {
+    background-color: lavenderblush;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 20px;
+}
+
+/* Header and Footer
+----------------------------*/
+
+header, footer {
+    background: #D9E3FF;
+    color: darkcyan;
+}
+
+/* header */
+
+header h1, header h2 {
+    color: darkcyan;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+
+.profileimg {
+    border-radius: 50%;
+    width: 320px;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    width: 100%;
+    background: antiquewhite;
+}
+
+footer a {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: skyblue;
+    display: inline-block;
+    padding: 20px 15px;
+    text-transform: uppercase;
+
+}
+
+/* Work Experience */
+.work {
+    background: #EBEBEB;
+}
+
+h3~p {
+    margin: 0;
+}
+
+/* Education */
+.education {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(256, 256, 256, 0.6)),
+                url(https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2016/07/charlotte-skyline.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#edutext {
+    color: midnightblue;
+    font-weight: 500;
+    text-align: center;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+.contact-info {
+    /* insert css here---
+    -------------------*/
+}
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media (max-width: 500px) {
+
+    header {
+        text-align: center;
+    }
+
+    .profileimg {
+        width: 200px;
+    }
+}
+
+/* MEdia Queries */
+
+@media (min-width: 300px) {
+
+.content-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-right: 10px;
+    /*border: 1px solid red;*/
+}
+
+#name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#jobspace {
+    margin-top: -5px;
+    padding-bottom: 70px;
+}
