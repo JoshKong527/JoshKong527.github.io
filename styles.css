@@ -13,9 +13,14 @@ html {
 body {
     font-family: sans-serif;
     font-size: 1em;
+    text-align: justify;
     color: darkcyan;
     background: antiquewhite;
     margin: 0;
+}
+
+.leftdes {
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -171,14 +176,14 @@ h3~p {
 
 /* Education */
 .education {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(256, 256, 256, 0.6)),
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(256, 256, 256, 0.6)),
                 url(https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2016/07/charlotte-skyline.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 #edutext {
     color: midnightblue;
-    font-weight: 500;
+    font-weight: bolder;
     text-align: center;
 }
 
