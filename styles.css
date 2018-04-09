@@ -144,7 +144,7 @@ header {
     border-radius: 50%;
     width: 320px;
     margin-bottom: 40px;
-    transorm: rotate(90);
+    rotate: 90deg;
 }
 
 /* footer */
@@ -177,16 +177,17 @@ h3~p {
 
 /* Education */
 .education {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(256, 256, 256, 0.6)),
+    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(256, 256, 256, 0.6)),
                 url(https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2016/07/charlotte-skyline.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 #edutext {
     color: midnightblue;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bolder;
     text-align: center;
+    text-shadow: 4px 2px white;
 }
 
 p + h3 {
