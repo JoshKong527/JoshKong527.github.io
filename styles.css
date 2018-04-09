@@ -147,6 +147,10 @@ header {
     rotate: 90deg;
 }
 
+#imghover {
+  border-radius: 0;
+}
+
 /* footer */
 
 footer {
