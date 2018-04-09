@@ -144,6 +144,7 @@ header {
     border-radius: 50%;
     width: 320px;
     margin-bottom: 40px;
+    transorm: rotate(90);
 }
 
 /* footer */
