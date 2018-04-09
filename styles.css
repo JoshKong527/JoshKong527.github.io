@@ -181,17 +181,19 @@ h3~p {
 
 /* Education */
 .education {
-    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(256, 256, 256, 0.6)),
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(256, 256, 256, 0.9)),
                 url(https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2016/07/charlotte-skyline.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 #edutext {
     color: midnightblue;
-    font-size: 18px;
-    font-weight: bolder;
+    /* font-size: 18px; */
+    font-size: 1em;
+
     text-align: center;
-    text-shadow: 4px 2px white;
+    text-shadow: 2px 2px lightblue;
+
 }
 
 p + h3 {
